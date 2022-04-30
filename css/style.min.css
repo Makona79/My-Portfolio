@@ -1138,8 +1138,8 @@ section {
 .item {
   position: relative;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 20%;
-          flex: 0 1 20%;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
   height: 265px;
   margin: 10px;
   text-align: center;
@@ -1221,14 +1221,6 @@ section {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-@media (max-width:1300px) {
-  .item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 30%;
-            flex: 0 1 30%;
-  }
 }
 
 @media (max-width:1200px) {

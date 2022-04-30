@@ -1041,18 +1041,12 @@ section {
 
 .item {
   position: relative;
-  flex: 0 1 20%;
+  flex: 0 1 30%;
   height: 265px;
   margin: 10px;
   text-align: center;
   transition: all 0.5s ease 0s;
   overflow: hidden;
-}
-
-@media (max-width: 1300px) {
-  .item {
-    flex: 0 1 30%;
-  }
 }
 
 @media (max-width: 991.98px) {
